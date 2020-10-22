@@ -1011,4 +1011,4 @@ select distinct last_name from mytable2 where mytable2.gender = "Female";
 
 select distinct username, ip_address from mytable2 where mytable2.gender = "Male";
 
-select distinct username, last_name, ip_address from mytable2 where mytable2.gender = "Male" and mytable2.gender like "122%";
+select distinct username, last_name, ip_address from mytable2 where mytable2.gender = "Male" and mytable2.ip_address like "122%";
